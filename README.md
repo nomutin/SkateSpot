@@ -4,8 +4,7 @@
 <img src="https://user-images.githubusercontent.com/71866173/112087903-30059f80-8bd2-11eb-86c4-577a2b3f9b43.png" width="150px" height="150px">
 </div>
 Swiftのお勉強のために作成してます
-[SkateSpot](https://github.com/masa-suzuki-iPhone/skatboarding)をベースにSwiftUIでリファクタリングします
-
+[SkateSpot](https://github.com/masa-suzuki-iPhone/skatboarding) をベースにSwiftUIでリファクタリングします
 
 
 ## 💡SkateSpotの機能
