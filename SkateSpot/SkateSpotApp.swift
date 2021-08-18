@@ -1,17 +1,20 @@
-//
-//  SkateSpotApp.swift
-//  SkateSpot
-//
-//  Created by 野村優太 on 2021/08/05.
-//
-
+import Firebase
 import SwiftUI
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
 
 @main
 struct SkateSpotApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ModelData())
         }
     }
 }

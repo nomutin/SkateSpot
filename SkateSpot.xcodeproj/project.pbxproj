@@ -3,14 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830DA2166EB50D43B7AF069A /* Pods_SkateSpot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A72D7356C57295EC456EC5 /* Pods_SkateSpot.framework */; };
+		E713879126CABF69009FF8D7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713879026CABF69009FF8D7 /* LoginView.swift */; };
+		E713879426CBB8E3009FF8D7 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713879326CBB8E3009FF8D7 /* LoginModel.swift */; };
+		E713879626CD48AA009FF8D7 /* LoginEnterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E713879526CD48AA009FF8D7 /* LoginEnterForm.swift */; };
+		E729775126C4164900D0D692 /* SpotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729775026C4164900D0D692 /* SpotDetailView.swift */; };
+		E729775626C43C6800D0D692 /* SpotStatusIconFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729775526C43C6800D0D692 /* SpotStatusIconFull.swift */; };
+		E729775826C43C8900D0D692 /* SpotStatusIconMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729775726C43C8900D0D692 /* SpotStatusIconMini.swift */; };
+		E729775D26C43ED300D0D692 /* SpotStatusIconParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729775C26C43ED300D0D692 /* SpotStatusIconParameter.swift */; };
+		E729775F26C43F5200D0D692 /* SpotStatusRowFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729775E26C43F5200D0D692 /* SpotStatusRowFull.swift */; };
+		E729776326C44D5200D0D692 /* SpotCatalogueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729776226C44D5200D0D692 /* SpotCatalogueItem.swift */; };
+		E729776526C44D8A00D0D692 /* SpotCatalogueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729776426C44D8A00D0D692 /* SpotCatalogueRow.swift */; };
+		E729776726C4509200D0D692 /* SpotCatalogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729776626C4509200D0D692 /* SpotCatalogueView.swift */; };
+		E729776926C4E2DB00D0D692 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729776826C4E2DB00D0D692 /* BackButton.swift */; };
+		E729776B26C4EC5400D0D692 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729776A26C4EC5400D0D692 /* MapView.swift */; };
+		E729776D26C4ED4000D0D692 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729776C26C4ED4000D0D692 /* Map.swift */; };
+		E72977AB26C4FD6000D0D692 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72977AA26C4FD6000D0D692 /* ImagePicker.swift */; };
+		E72977AD26C4FDB400D0D692 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72977AC26C4FDB400D0D692 /* PostView.swift */; };
+		E72977B126C5299700D0D692 /* PostState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72977B026C5299700D0D692 /* PostState.swift */; };
 		E763A2ED26BBB460009F873E /* SkateSpotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763A2EC26BBB460009F873E /* SkateSpotApp.swift */; };
 		E763A2EF26BBB460009F873E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763A2EE26BBB460009F873E /* ContentView.swift */; };
 		E763A2F126BBB467009F873E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E763A2F026BBB467009F873E /* Assets.xcassets */; };
 		E763A2F426BBB467009F873E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E763A2F326BBB467009F873E /* Preview Assets.xcassets */; };
+		E77C08A826C8FBE700B4A1F5 /* GeoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C08A726C8FBE700B4A1F5 /* GeoCode.swift */; };
+		E77C08AC26C957E700B4A1F5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C08AB26C957E700B4A1F5 /* SwiftUIView.swift */; };
+		E77C08AE26CA8BFD00B4A1F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77C08AD26CA8BFD00B4A1F5 /* GoogleService-Info.plist */; };
 		E7B7FB1B26C35E52009AE35B /* dummySpotData.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B7FB1A26C35E52009AE35B /* dummySpotData.json */; };
 		E7B7FB1D26C35FC0009AE35B /* dummyUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B7FB1C26C35FC0009AE35B /* dummyUserData.json */; };
 		E7B7FB2026C36038009AE35B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B7FB1F26C36038009AE35B /* ModelData.swift */; };
@@ -19,12 +40,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41A72D7356C57295EC456EC5 /* Pods_SkateSpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkateSpot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7405FEC79C7B0684DBAE8C1 /* Pods-SkateSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpot.debug.xcconfig"; path = "Target Support Files/Pods-SkateSpot/Pods-SkateSpot.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B048713E50A21B052F87C4 /* Pods-SkateSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkateSpot.release.xcconfig"; path = "Target Support Files/Pods-SkateSpot/Pods-SkateSpot.release.xcconfig"; sourceTree = "<group>"; };
+		E713879026CABF69009FF8D7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E713879326CBB8E3009FF8D7 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		E713879526CD48AA009FF8D7 /* LoginEnterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEnterForm.swift; sourceTree = "<group>"; };
+		E729775026C4164900D0D692 /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
+		E729775226C4384600D0D692 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E729775526C43C6800D0D692 /* SpotStatusIconFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusIconFull.swift; sourceTree = "<group>"; };
+		E729775726C43C8900D0D692 /* SpotStatusIconMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusIconMini.swift; sourceTree = "<group>"; };
+		E729775C26C43ED300D0D692 /* SpotStatusIconParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusIconParameter.swift; sourceTree = "<group>"; };
+		E729775E26C43F5200D0D692 /* SpotStatusRowFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusRowFull.swift; sourceTree = "<group>"; };
+		E729776226C44D5200D0D692 /* SpotCatalogueItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotCatalogueItem.swift; sourceTree = "<group>"; };
+		E729776426C44D8A00D0D692 /* SpotCatalogueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotCatalogueRow.swift; sourceTree = "<group>"; };
+		E729776626C4509200D0D692 /* SpotCatalogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotCatalogueView.swift; sourceTree = "<group>"; };
+		E729776826C4E2DB00D0D692 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		E729776A26C4EC5400D0D692 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E729776C26C4ED4000D0D692 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		E72977AA26C4FD6000D0D692 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E72977AC26C4FDB400D0D692 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		E72977B026C5299700D0D692 /* PostState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostState.swift; sourceTree = "<group>"; };
 		E763A2E926BBB460009F873E /* SkateSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E763A2EC26BBB460009F873E /* SkateSpotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateSpotApp.swift; sourceTree = "<group>"; };
 		E763A2EE26BBB460009F873E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E763A2F026BBB467009F873E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E763A2F326BBB467009F873E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E763A2F526BBB467009F873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77C08A726C8FBE700B4A1F5 /* GeoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCode.swift; sourceTree = "<group>"; };
+		E77C08AB26C957E700B4A1F5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E77C08AD26CA8BFD00B4A1F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E7B7FB1A26C35E52009AE35B /* dummySpotData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummySpotData.json; sourceTree = "<group>"; };
 		E7B7FB1C26C35FC0009AE35B /* dummyUserData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummyUserData.json; sourceTree = "<group>"; };
 		E7B7FB1F26C36038009AE35B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -37,19 +82,111 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830DA2166EB50D43B7AF069A /* Pods_SkateSpot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0D846E5799BD7F442A2049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A72D7356C57295EC456EC5 /* Pods_SkateSpot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		475241CEAFED94E55E1FB9E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7405FEC79C7B0684DBAE8C1 /* Pods-SkateSpot.debug.xcconfig */,
+				E0B048713E50A21B052F87C4 /* Pods-SkateSpot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E713878F26CABF55009FF8D7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E713879026CABF69009FF8D7 /* LoginView.swift */,
+				E713879326CBB8E3009FF8D7 /* LoginModel.swift */,
+				E713879526CD48AA009FF8D7 /* LoginEnterForm.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E729774F26C4162E00D0D692 /* SpotDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E729775026C4164900D0D692 /* SpotDetailView.swift */,
+				E729775E26C43F5200D0D692 /* SpotStatusRowFull.swift */,
+			);
+			path = SpotDetail;
+			sourceTree = "<group>";
+		};
+		E729775926C43E0E00D0D692 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E729775726C43C8900D0D692 /* SpotStatusIconMini.swift */,
+				E729775526C43C6800D0D692 /* SpotStatusIconFull.swift */,
+				E729775C26C43ED300D0D692 /* SpotStatusIconParameter.swift */,
+				E729776826C4E2DB00D0D692 /* BackButton.swift */,
+				E77C08A726C8FBE700B4A1F5 /* GeoCode.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E729776026C44CAE00D0D692 /* SpotCatalogue */ = {
+			isa = PBXGroup;
+			children = (
+				E729776226C44D5200D0D692 /* SpotCatalogueItem.swift */,
+				E729776426C44D8A00D0D692 /* SpotCatalogueRow.swift */,
+				E729776626C4509200D0D692 /* SpotCatalogueView.swift */,
+			);
+			path = SpotCatalogue;
+			sourceTree = "<group>";
+		};
+		E729776126C44CC900D0D692 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E763A2EE26BBB460009F873E /* ContentView.swift */,
+				E77C08AB26C957E700B4A1F5 /* SwiftUIView.swift */,
+				E713878F26CABF55009FF8D7 /* Login */,
+				E729776F26C4FC5D00D0D692 /* Post */,
+				E729776E26C4FC4E00D0D692 /* Map */,
+				E729774F26C4162E00D0D692 /* SpotDetail */,
+				E729776026C44CAE00D0D692 /* SpotCatalogue */,
+				E729775926C43E0E00D0D692 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E729776E26C4FC4E00D0D692 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E729776C26C4ED4000D0D692 /* Map.swift */,
+				E729776A26C4EC5400D0D692 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E729776F26C4FC5D00D0D692 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				E72977AC26C4FDB400D0D692 /* PostView.swift */,
+				E72977AA26C4FD6000D0D692 /* ImagePicker.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		E763A2E026BBB460009F873E = {
 			isa = PBXGroup;
 			children = (
 				E763A2EB26BBB460009F873E /* SkateSpot */,
-				E763A2F026BBB467009F873E /* Assets.xcassets */,
-				E763A2F526BBB467009F873E /* Info.plist */,
 				E763A2EA26BBB460009F873E /* Products */,
+				475241CEAFED94E55E1FB9E1 /* Pods */,
+				1A0D846E5799BD7F442A2049 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +201,15 @@
 		E763A2EB26BBB460009F873E /* SkateSpot */ = {
 			isa = PBXGroup;
 			children = (
+				E77C08AD26CA8BFD00B4A1F5 /* GoogleService-Info.plist */,
 				E763A2EC26BBB460009F873E /* SkateSpotApp.swift */,
-				E763A2EE26BBB460009F873E /* ContentView.swift */,
+				E729775226C4384600D0D692 /* MyPlayground.playground */,
+				E729776126C44CC900D0D692 /* Views */,
+				E763A2F226BBB467009F873E /* Preview Content */,
+				E763A2F026BBB467009F873E /* Assets.xcassets */,
+				E763A2F526BBB467009F873E /* Info.plist */,
 				E7B7FB1E26C36000009AE35B /* Model */,
 				E7B7FB1926C35DF2009AE35B /* Resourses */,
-				E763A2F226BBB467009F873E /* Preview Content */,
 			);
 			path = SkateSpot;
 			sourceTree = "<group>";
@@ -94,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B7FB1F26C36038009AE35B /* ModelData.swift */,
+				E72977B026C5299700D0D692 /* PostState.swift */,
 				E7B7FB2426C360B1009AE35B /* UserData.swift */,
 				E7B7FB2126C3606B009AE35B /* PostData.swift */,
 			);
@@ -107,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E763A2F826BBB467009F873E /* Build configuration list for PBXNativeTarget "SkateSpot" */;
 			buildPhases = (
+				1FEC1B0C2E58F4316E459774 /* [CP] Check Pods Manifest.lock */,
 				E763A2E526BBB460009F873E /* Sources */,
 				E763A2E626BBB460009F873E /* Frameworks */,
 				E763A2E726BBB460009F873E /* Resources */,
+				B75AFB7C57B64DEF00F20653 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +303,7 @@
 			files = (
 				E7B7FB1B26C35E52009AE35B /* dummySpotData.json in Resources */,
 				E763A2F426BBB467009F873E /* Preview Assets.xcassets in Resources */,
+				E77C08AE26CA8BFD00B4A1F5 /* GoogleService-Info.plist in Resources */,
 				E763A2F126BBB467009F873E /* Assets.xcassets in Resources */,
 				E7B7FB1D26C35FC0009AE35B /* dummyUserData.json in Resources */,
 			);
@@ -166,16 +311,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FEC1B0C2E58F4316E459774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkateSpot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75AFB7C57B64DEF00F20653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpot/Pods-SkateSpot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkateSpot/Pods-SkateSpot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkateSpot/Pods-SkateSpot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E763A2E526BBB460009F873E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E729775626C43C6800D0D692 /* SpotStatusIconFull.swift in Sources */,
+				E729776326C44D5200D0D692 /* SpotCatalogueItem.swift in Sources */,
+				E713879626CD48AA009FF8D7 /* LoginEnterForm.swift in Sources */,
+				E729776D26C4ED4000D0D692 /* Map.swift in Sources */,
+				E72977AB26C4FD6000D0D692 /* ImagePicker.swift in Sources */,
 				E763A2EF26BBB460009F873E /* ContentView.swift in Sources */,
 				E7B7FB2226C3606B009AE35B /* PostData.swift in Sources */,
+				E729776526C44D8A00D0D692 /* SpotCatalogueRow.swift in Sources */,
+				E729775826C43C8900D0D692 /* SpotStatusIconMini.swift in Sources */,
+				E713879126CABF69009FF8D7 /* LoginView.swift in Sources */,
+				E77C08AC26C957E700B4A1F5 /* SwiftUIView.swift in Sources */,
 				E763A2ED26BBB460009F873E /* SkateSpotApp.swift in Sources */,
+				E729776B26C4EC5400D0D692 /* MapView.swift in Sources */,
+				E729775126C4164900D0D692 /* SpotDetailView.swift in Sources */,
+				E713879426CBB8E3009FF8D7 /* LoginModel.swift in Sources */,
+				E72977B126C5299700D0D692 /* PostState.swift in Sources */,
 				E7B7FB2526C360B1009AE35B /* UserData.swift in Sources */,
+				E729776726C4509200D0D692 /* SpotCatalogueView.swift in Sources */,
 				E7B7FB2026C36038009AE35B /* ModelData.swift in Sources */,
+				E729775D26C43ED300D0D692 /* SpotStatusIconParameter.swift in Sources */,
+				E729776926C4E2DB00D0D692 /* BackButton.swift in Sources */,
+				E72977AD26C4FDB400D0D692 /* PostView.swift in Sources */,
+				E77C08A826C8FBE700B4A1F5 /* GeoCode.swift in Sources */,
+				E729775F26C43F5200D0D692 /* SpotStatusRowFull.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +506,7 @@
 		};
 		E763A2F926BBB467009F873E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7405FEC79C7B0684DBAE8C1 /* Pods-SkateSpot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +529,7 @@
 		};
 		E763A2FA26BBB467009F873E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B048713E50A21B052F87C4 /* Pods-SkateSpot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

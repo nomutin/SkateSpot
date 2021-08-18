@@ -17,6 +17,10 @@ struct PostData: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+    
+    var postUserId: Int
+    var postDate: String
+    
 }
 
 

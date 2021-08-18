@@ -4,6 +4,7 @@ import Combine
 final class ModelData: ObservableObject {
     @Published var postData: [PostData] = load("dummySpotData.json")
     @Published var userData: [UserData] = load("dummyUserData.json")
+    @Published var Favorites: [Int: Int] = loadNumberOfFavorite(postDataPath: "dummySpotData.json", userDataPath: "dummyUserData.json")
 }
 
 
@@ -29,3 +30,16 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
 }
 
+func loadNumberOfFavorite(postDataPath: String, userDataPath: String) -> [Int: Int] {
+    let postData: [PostData] = load(postDataPath)
+    let userData: [UserData] = load(userDataPath)
+    var favoriteDict: [Int: Int] = [:]
+    for post in postData {
+        var favorites: Int = 0
+        for usr in userData {
+            favorites = usr.favoriteSpotId.firstIndex(of: post.id) != nil ? favorites + 1 : favorites
+        }
+        favoriteDict.updateValue(favorites, forKey: post.id)
+    }
+    return favoriteDict
+}
