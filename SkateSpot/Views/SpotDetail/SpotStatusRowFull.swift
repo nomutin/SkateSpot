@@ -10,17 +10,20 @@ struct SpotStatusRowFull: View {
             SpotStatusIconFull(statusName: "SURFACE",
                                statusImage: Image("roadSurface"),
                                statusDescription: SpotStatusIconParameter[0].param[postdata.loadSurface].description,
-                               iconColor: SpotStatusIconParameter[0].param[postdata.loadSurface].color)
+                               iconColor: SpotStatusIconParameter[0].param[postdata.loadSurface].color
+                                )
             
             SpotStatusIconFull(statusName: "KICKOUT",
                                statusImage: Image("kickout"),
                                statusDescription: SpotStatusIconParameter[1].param[postdata.kickout].description,
-                               iconColor: SpotStatusIconParameter[1].param[postdata.kickout].color)
+                               iconColor: SpotStatusIconParameter[1].param[postdata.kickout].color
+            )
             
             SpotStatusIconFull(statusName: "RAINY",
                                statusImage: Image("rainy"),
                                statusDescription: SpotStatusIconParameter[2].param[postdata.rainy].description,
-                               iconColor: SpotStatusIconParameter[2].param[postdata.rainy].color)
+                               iconColor: SpotStatusIconParameter[2].param[postdata.rainy].color
+            )
         }
     }
 }

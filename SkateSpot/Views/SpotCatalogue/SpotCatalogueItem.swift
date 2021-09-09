@@ -3,8 +3,8 @@ import SwiftUI
 struct SpotCatalogueItem: View {
     var postData: PostData
     
-    let itemWidth:  CGFloat = 200
-    let itemHeight: CGFloat = 150
+    let itemWidth:  CGFloat = 220
+    let itemHeight: CGFloat = 165
     
     var body: some View {
         
@@ -13,15 +13,14 @@ struct SpotCatalogueItem: View {
                 postData.image
                     .resizable()
                     .frame(width: itemWidth, height: itemHeight)
-                    .clipShape(RoundedRectangle(cornerRadius: 7))
-                    .overlay(RoundedRectangle(cornerRadius: 7).stroke(Color.white, lineWidth: 1))
-                    .shadow(radius: 1)
+                    .clipShape(RoundedRectangle(cornerRadius: 5))
+                    .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.white, lineWidth: 1))
             }
             
             HStack {
                 Text(postData.name)
                     .font(.caption)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color.accentColor)
                 Spacer()
                 // SpotStatusIconMini(iconImage: Image("kickout"), iconColor: kickoutIconColor, size: 18)
                 // SpotStatusIconMini(iconImage: Image("roadSurface"), iconColor: roadSurfaceIconColor, size: 18)

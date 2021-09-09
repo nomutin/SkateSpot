@@ -20,7 +20,7 @@ struct SpotDetailView: View {
             }.frame(height: 300)
             
             
-            VStack(alignment: .leading) {
+            VStack(alignment: .center) {
                 
                 HStack {
                     Text(postdata.name).font(.title).foregroundColor(.primary)
@@ -39,10 +39,11 @@ struct SpotDetailView: View {
                 Divider()
                     
                 SpotStatusRowFull(postdata: postdata)
+                    .padding(.horizontal, 20)
                 
                 Divider()
                     
-                Text("About This Spot :").foregroundColor(.primary).font(.title2)
+                Text("About This Spot ").foregroundColor(.primary).font(.title2)
                     
                 Text(postdata.caption).font(.body).padding().offset(y: -15)
                     
@@ -83,8 +84,8 @@ struct SpotDetailView_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        ForEach(["iPhone  12 mini", "iPhone 11"], id: \.self) {deviceName in
-            SpotDetailView(postdata: modelData.postData[1])
+        ForEach(["iPhone  12 mini"], id: \.self) {deviceName in
+            SpotDetailView(postdata: modelData.postData[0])
                 .environmentObject(ModelData())
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)

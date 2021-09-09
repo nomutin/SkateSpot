@@ -29,14 +29,17 @@
 		E763A2EF26BBB460009F873E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763A2EE26BBB460009F873E /* ContentView.swift */; };
 		E763A2F126BBB467009F873E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E763A2F026BBB467009F873E /* Assets.xcassets */; };
 		E763A2F426BBB467009F873E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E763A2F326BBB467009F873E /* Preview Assets.xcassets */; };
+		E77B8F9726D8B38B00D5040A /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B8F9626D8B38B00D5040A /* ImagePickerView.swift */; };
+		E77B8F9B26DD53F400D5040A /* StatusIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77B8F9A26DD53F400D5040A /* StatusIcon.swift */; };
 		E77C08A826C8FBE700B4A1F5 /* GeoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C08A726C8FBE700B4A1F5 /* GeoCode.swift */; };
-		E77C08AC26C957E700B4A1F5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C08AB26C957E700B4A1F5 /* SwiftUIView.swift */; };
 		E77C08AE26CA8BFD00B4A1F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77C08AD26CA8BFD00B4A1F5 /* GoogleService-Info.plist */; };
 		E7B7FB1B26C35E52009AE35B /* dummySpotData.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B7FB1A26C35E52009AE35B /* dummySpotData.json */; };
 		E7B7FB1D26C35FC0009AE35B /* dummyUserData.json in Resources */ = {isa = PBXBuildFile; fileRef = E7B7FB1C26C35FC0009AE35B /* dummyUserData.json */; };
 		E7B7FB2026C36038009AE35B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B7FB1F26C36038009AE35B /* ModelData.swift */; };
 		E7B7FB2226C3606B009AE35B /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B7FB2126C3606B009AE35B /* PostData.swift */; };
 		E7B7FB2526C360B1009AE35B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B7FB2426C360B1009AE35B /* UserData.swift */; };
+		E7DCB8FA26CE1D1700E1C59A /* SelectableIconRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DCB8F926CE1D1700E1C59A /* SelectableIconRow.swift */; };
+		E7DCB8FC26D02F2700E1C59A /* FloatingTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DCB8FB26D02F2700E1C59A /* FloatingTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +50,6 @@
 		E713879326CBB8E3009FF8D7 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		E713879526CD48AA009FF8D7 /* LoginEnterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEnterForm.swift; sourceTree = "<group>"; };
 		E729775026C4164900D0D692 /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
-		E729775226C4384600D0D692 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E729775526C43C6800D0D692 /* SpotStatusIconFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusIconFull.swift; sourceTree = "<group>"; };
 		E729775726C43C8900D0D692 /* SpotStatusIconMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusIconMini.swift; sourceTree = "<group>"; };
 		E729775C26C43ED300D0D692 /* SpotStatusIconParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotStatusIconParameter.swift; sourceTree = "<group>"; };
@@ -67,14 +69,17 @@
 		E763A2F026BBB467009F873E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E763A2F326BBB467009F873E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E763A2F526BBB467009F873E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77B8F9626D8B38B00D5040A /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		E77B8F9A26DD53F400D5040A /* StatusIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIcon.swift; sourceTree = "<group>"; };
 		E77C08A726C8FBE700B4A1F5 /* GeoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCode.swift; sourceTree = "<group>"; };
-		E77C08AB26C957E700B4A1F5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E77C08AD26CA8BFD00B4A1F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E7B7FB1A26C35E52009AE35B /* dummySpotData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummySpotData.json; sourceTree = "<group>"; };
 		E7B7FB1C26C35FC0009AE35B /* dummyUserData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummyUserData.json; sourceTree = "<group>"; };
 		E7B7FB1F26C36038009AE35B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E7B7FB2126C3606B009AE35B /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		E7B7FB2426C360B1009AE35B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		E7DCB8F926CE1D1700E1C59A /* SelectableIconRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableIconRow.swift; sourceTree = "<group>"; };
+		E7DCB8FB26D02F2700E1C59A /* FloatingTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +136,7 @@
 				E729775726C43C8900D0D692 /* SpotStatusIconMini.swift */,
 				E729775526C43C6800D0D692 /* SpotStatusIconFull.swift */,
 				E729775C26C43ED300D0D692 /* SpotStatusIconParameter.swift */,
+				E77B8F9A26DD53F400D5040A /* StatusIcon.swift */,
 				E729776826C4E2DB00D0D692 /* BackButton.swift */,
 				E77C08A726C8FBE700B4A1F5 /* GeoCode.swift */,
 			);
@@ -151,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				E763A2EE26BBB460009F873E /* ContentView.swift */,
-				E77C08AB26C957E700B4A1F5 /* SwiftUIView.swift */,
+				E7DCB8FB26D02F2700E1C59A /* FloatingTabbar.swift */,
 				E713878F26CABF55009FF8D7 /* Login */,
 				E729776F26C4FC5D00D0D692 /* Post */,
 				E729776E26C4FC4E00D0D692 /* Map */,
@@ -176,6 +182,8 @@
 			children = (
 				E72977AC26C4FDB400D0D692 /* PostView.swift */,
 				E72977AA26C4FD6000D0D692 /* ImagePicker.swift */,
+				E77B8F9626D8B38B00D5040A /* ImagePickerView.swift */,
+				E7DCB8F926CE1D1700E1C59A /* SelectableIconRow.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -203,7 +211,6 @@
 			children = (
 				E77C08AD26CA8BFD00B4A1F5 /* GoogleService-Info.plist */,
 				E763A2EC26BBB460009F873E /* SkateSpotApp.swift */,
-				E729775226C4384600D0D692 /* MyPlayground.playground */,
 				E729776126C44CC900D0D692 /* Views */,
 				E763A2F226BBB467009F873E /* Preview Content */,
 				E763A2F026BBB467009F873E /* Assets.xcassets */,
@@ -362,14 +369,15 @@
 				E729776326C44D5200D0D692 /* SpotCatalogueItem.swift in Sources */,
 				E713879626CD48AA009FF8D7 /* LoginEnterForm.swift in Sources */,
 				E729776D26C4ED4000D0D692 /* Map.swift in Sources */,
+				E7DCB8FC26D02F2700E1C59A /* FloatingTabbar.swift in Sources */,
 				E72977AB26C4FD6000D0D692 /* ImagePicker.swift in Sources */,
 				E763A2EF26BBB460009F873E /* ContentView.swift in Sources */,
 				E7B7FB2226C3606B009AE35B /* PostData.swift in Sources */,
 				E729776526C44D8A00D0D692 /* SpotCatalogueRow.swift in Sources */,
 				E729775826C43C8900D0D692 /* SpotStatusIconMini.swift in Sources */,
 				E713879126CABF69009FF8D7 /* LoginView.swift in Sources */,
-				E77C08AC26C957E700B4A1F5 /* SwiftUIView.swift in Sources */,
 				E763A2ED26BBB460009F873E /* SkateSpotApp.swift in Sources */,
+				E77B8F9B26DD53F400D5040A /* StatusIcon.swift in Sources */,
 				E729776B26C4EC5400D0D692 /* MapView.swift in Sources */,
 				E729775126C4164900D0D692 /* SpotDetailView.swift in Sources */,
 				E713879426CBB8E3009FF8D7 /* LoginModel.swift in Sources */,
@@ -379,6 +387,8 @@
 				E7B7FB2026C36038009AE35B /* ModelData.swift in Sources */,
 				E729775D26C43ED300D0D692 /* SpotStatusIconParameter.swift in Sources */,
 				E729776926C4E2DB00D0D692 /* BackButton.swift in Sources */,
+				E7DCB8FA26CE1D1700E1C59A /* SelectableIconRow.swift in Sources */,
+				E77B8F9726D8B38B00D5040A /* ImagePickerView.swift in Sources */,
 				E72977AD26C4FDB400D0D692 /* PostView.swift in Sources */,
 				E77C08A826C8FBE700B4A1F5 /* GeoCode.swift in Sources */,
 				E729775F26C43F5200D0D692 /* SpotStatusRowFull.swift in Sources */,

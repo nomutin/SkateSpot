@@ -8,7 +8,7 @@ struct LoginView: View {
         VStack {
             Text("アカウント作成/ログイン")
                 .font(.title)
-                .foregroundColor(Color("StatusIconColor"))
+                .foregroundColor(Color.accentColor)
                 .padding()
                 
             LoginEnterForm(
@@ -16,6 +16,7 @@ struct LoginView: View {
                 formTitle: "Address",
                 defaultText: "メールアドレスを入力",
                 errorText: "メールアドレスが必要です",
+                isSecure: false,
                 content: $loginModel.address,
                 isError: $loginModel.addressError
             )
@@ -25,6 +26,7 @@ struct LoginView: View {
                 formTitle: "PassWord",
                 defaultText: "パスワードを入力(6文字以上)",
                 errorText: "パスワードを入力してください",
+                isSecure: true,
                 content: $loginModel.password,
                 isError: $loginModel.passwordError
             )
@@ -33,10 +35,10 @@ struct LoginView: View {
                 formTitle: "",
                 defaultText: "アカウント作成時はもう一度入力",
                 errorText: "パスワードが一致しません",
+                isSecure: true,
                 content: $loginModel.rePassword,
                 isError: $loginModel.rePasswordError
             )
-            
             
                 
             LoginEnterForm(
@@ -44,6 +46,7 @@ struct LoginView: View {
                 formTitle: "UserName",
                 defaultText: "アカウント作成時はユーザ名を入力",
                 errorText: "アカウント作成にはユーザ名が必要です",
+                isSecure: false,
                 content: $loginModel.name,
                 isError: $loginModel.nameError
             )
@@ -57,7 +60,7 @@ struct LoginView: View {
                 .frame(width: 150, alignment: .center)
                 .padding()
                 .accentColor(Color.white)
-                .background(Color("StatusIconColor"))
+                .background(Color.accentColor)
                 .cornerRadius(26)
                 .padding()
                 .alert(isPresented: $loginModel.showingAccountCreateFailed, content: {
@@ -75,7 +78,7 @@ struct LoginView: View {
                 .frame(width: 150, alignment: .center)
                 .padding()
                 .accentColor(Color.white)
-                .background(Color("StatusIconColor"))
+                .background(Color.accentColor)
                 .cornerRadius(26)
                 
         }.padding()
@@ -95,9 +98,9 @@ func createAccount(loginModel: LoginModel) {
     let rePassword: String = loginModel.rePassword
     let name: String = loginModel.name
     
-    loginModel.addressError = address.isEmpty ? true : false
-    loginModel.passwordError = password.isEmpty ? true : false
-    loginModel.nameError = name.isEmpty ? true : false
+    loginModel.addressError = address.isEmpty
+    loginModel.passwordError = password.isEmpty
+    loginModel.nameError = name.isEmpty 
     loginModel.rePasswordError = password != rePassword
     
     if address.isEmpty || password.isEmpty || name.isEmpty || (password != rePassword){

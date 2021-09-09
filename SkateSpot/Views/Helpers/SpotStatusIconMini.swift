@@ -20,7 +20,7 @@ struct SpotStatusIconMini: View {
 
 struct SpotStatusIconMini_Previews: PreviewProvider {
     static var previews: some View {
-        SpotStatusIconMini(iconImage: Image("kickout"), iconColor: Color("StatusIconColor"), size: 300.0)
+        SpotStatusIconMini(iconImage: Image("kickout"), iconColor: Color.accentColor, size: 300.0)
     }
 }
 

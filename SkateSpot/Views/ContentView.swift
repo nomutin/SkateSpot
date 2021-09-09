@@ -2,6 +2,7 @@ import SwiftUI
 import Firebase
 
 struct ContentView: View {
+    @EnvironmentObject var modelData: ModelData
     @State var isLogin: Bool = Auth.auth().currentUser == nil
     
     var body: some View {
@@ -27,7 +28,6 @@ struct ContentView: View {
                     Text("設定")
                 }
         }
-        .accentColor(Color("StatusIconColor"))
         .sheet(isPresented: $isLogin) {
             LoginView(loginModel: LoginModel())
         }

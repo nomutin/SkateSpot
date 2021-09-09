@@ -12,27 +12,33 @@ struct SpotStatusIconFull: View {
     var body: some View {
         VStack {
             Text(statusName)
-                .foregroundColor(iconColor)
                 .font(.body)
-            
+                .frame(width: 80)
+                
             statusImage
                 .resizable()
                 .scaledToFit()
-                .frame(width: 90, height: 80)
+                .frame(width: 70, height: 60)
                 .colorMultiply(iconColor)
-            
+                
             Text(statusDescription)
-                .foregroundColor(iconColor)
                 .font(.headline)
+                .frame(width: 80)
         }
-        .padding()
+        .padding(EdgeInsets(
+            top: 3,
+            leading: 12,
+            bottom: 2,
+            trailing: 12
+        ))
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(iconColor, lineWidth: 2))
     }
 }
 
+
 struct SpotStatusIconFull_Previews: PreviewProvider {
     static var previews: some View {
-        SpotStatusIconFull(statusName: "KICKOUT", statusImage: Image("kickout"), statusDescription: "SOON", iconColor: Color.red)
+        SpotStatusIconFull(statusName: "KICKOUT", statusImage: Image("kickout"), statusDescription: "SOON", iconColor: Color.accentColor)
     }
 }
 
